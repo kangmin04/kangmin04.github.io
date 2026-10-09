@@ -191,9 +191,6 @@ flowchart LR
 
 채점 규칙은 lm-evaluation-harness의 `lm_eval/tasks/kormedmcqa`에 있다. 설정 파일 하나와 코드 하나만 보면 된다.
 
-![lm-evaluation-harness _template_yaml](/assets/img/posts/kormedmcqa/06-gh-template-yaml.png)
-_`_template_yaml`. 프롬프트 형식, 답 추출 필터, stop 문자열이 모두 여기 있다 (GitHub에서 직접 캡처, 커밋 97a5e2c)_
-
 ### 1) 모델이 실제로 받는 프롬프트
 
 설정의 `doc_to_text`대로 doctor/test 첫 문항의 프롬프트를 직접 조립해 봤다. 앞에 fewshot 5개가 붙고 마지막이 `정답：`으로 끝난다.
