@@ -1,6 +1,6 @@
 ---
 title: "오픈소스 평가 도구 lighteval, 처음 돌려 보고 첫 PR까지"
-date: 2026-10-13 20:00:00 +0900
+date: 2026-10-13 19:30:00 +0900
 categories: [LLM, Benchmark]
 tags: [lighteval, llm-evaluation, open-source, log-likelihood, python-venv, git, pull-request]
 math: true
